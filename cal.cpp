@@ -6,7 +6,7 @@ void displayMenu() {
     cout << "2. Subtraction (-)" << endl;
     cout << "3. Multiplication (*)" << endl;
     cout << "4. Division (/)" << endl;
-    cout << "5. Quit" << endl;
+    cout << "5. Exit" << endl;
     cout << "Enter your choice: ";
 }
 int main() {
@@ -53,7 +53,7 @@ int main() {
             break;
 
         default:
-            cout << "Invalid choice." << endl;
+            cout << "Invalid choice.Please enter another option" << endl;
         }
     } while (choice != 5);
 
